@@ -1,0 +1,90 @@
+a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+.sq {
+  width: 100%;
+  position: relative;
+  display: block;
+  border-radius: 5px; }
+  .sq::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+  .sq > div, .sq > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden; }
+  .sq.bluesq {
+    background: url(../images/pills.png) center no-repeat; }
+    .sq.bluesq .pillar {
+      background-color: rgba(22, 159, 218, 0.3); }
+    .sq.bluesq:hover .pillar {
+      background-color: rgba(22, 159, 218, 0.7); }
+
+.pillar {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease; }
+  .pillar .no {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .pillar > div {
+    width: 100%;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease; }
+  .pillar h3 {
+    font-weight: 100;
+    margin: 0;
+    color: #fff; }
+  .pillar .text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -63px; }
+    .pillar .text span {
+      font-size: 88px;
+      line-height: 1; }
+  .pillar:hover .text {
+    top: -100%; }
+  .pillar .text-hover {
+    position: absolute;
+    left: 0;
+    top: 100%; }
+    .pillar .text-hover h4 {
+      margin-top: 0;
+      margin-bottom: 0px;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      transition: all 0.7s ease; }
+    .pillar .text-hover .readmore {
+      margin-top: 0px;
+      display: block;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      transition: all 0.7s ease; }
+  .pillar:hover .text-hover {
+    top: 50%;
+    margin-top: -75px; }
+    .pillar:hover .text-hover h4 {
+      margin-bottom: 30px; }
+    .pillar:hover .text-hover .readmore {
+      margin-top: 30px; }
+
+p.bbot {
+  font-size: 30px; }
+  p.bbot span {
+    border-bottom: 2px solid red; }
+
+/*# sourceMappingURL=sqs.css.map */
